@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo
+camel:
+  opentelemetry:
+    enabled: true
+    trace-processors: true
+server:
+  port: 8088
